@@ -1,0 +1,28 @@
+{
+  "name": "scrypt-example",
+  "version": "1.0.0",
+  "description": "scrypt example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "single-test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sCrypt-Inc/scrypt-example.git"
+  },
+  "keywords": [
+    "sCrypt"
+  ],
+  "author": "sCrypt-Inc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sCrypt-Inc/scrypt-example/issues"
+  },
+  "homepage": "https://github.com/sCrypt-Inc/scrypt-example#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "scryptlib": "^1.0.7"
+  }
+}
